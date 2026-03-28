@@ -40,15 +40,7 @@ Dadurch kann der aktuelle Abstand sowohl lokal am System als auch über den Brow
 
 ## Verwendete Komponenten
 
-- 2x ESP32 Dev Module
-- 1x HC-SR04 Ultraschallsensor
-- 1x OLED Display (SSD1306, I2C)
-- 1x RGB-LED
-- 1x Buzzer
-- Breadboard
-- Jumper-Kabel
-- Widerstände
-- Spannungsteiler für den ECHO-Pin des HC-SR04
+Siehe: [Komponentenliste](docs/komponenten.md)
 
 ## Funktionsweise
 
