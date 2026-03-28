@@ -40,7 +40,7 @@ Dadurch kann der aktuelle Abstand sowohl lokal am System als auch über den Brow
 
 ## Verwendete Komponenten
 
-Siehe: [Komponentenliste](docs/komponenten.md)
+Siehe: [Komponentenliste](docs/Komponentenliste.md)
 
 ## Funktionsweise
 
