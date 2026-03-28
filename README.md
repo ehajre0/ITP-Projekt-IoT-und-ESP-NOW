@@ -6,6 +6,10 @@
 - Bojan
 - Erdi
 
+## Varianten
+- Variante 2: Status LED
+- Variante 4: API
+
 ## Projektbeschreibung
 
 In diesem Projekt wurde ein intelligentes Parksensorsystem mit zwei ESP32-Boards aufgebaut.
@@ -45,16 +49,6 @@ Dadurch kann der aktuelle Abstand sowohl lokal am System als auch über den Brow
 - Jumper-Kabel
 - Widerstände
 - Spannungsteiler für den ECHO-Pin des HC-SR04
-
-## Systemaufbau
-
-```text
-HC-SR04 -> ESP32 Sender -> ESP-NOW -> ESP32 Receiver
-                                          |
-                    ------------------------------------------------
-                    |                |           |         |        |
-                  OLED            RGB-LED     Buzzer   Website    API
-```
 
 ## Funktionsweise
 
@@ -186,13 +180,6 @@ Liefert die letzten Messungen.
 
 ### Receiver
 
-#### OLED -> ESP32 Receiver
-
-- VCC -> 3.3V
-- GND -> GND
-- SDA -> GPIO 21
-- SCL -> GPIO 22
-
 #### RGB-LED / Buzzer -> ESP32 Receiver
 
 - LED R -> GPIO 25
@@ -203,16 +190,16 @@ Liefert die letzten Messungen.
 ## Projektstruktur
 
 ```text
-projekt-esp32-parksensor/
-├── README.md
+esp32-parksensor/
 ├── code/
-│   ├── sender_esp32.ino
-│   └── receiver_esp32.ino
+│   ├── sender.ino
+│   └── receiver.ino
 ├── docs/
-│   └── produktdaten.pdf
-└── images/
-    ├── aufbau.jpg
-    └── schaltplan.png
+│   ├── receiver_esp32.jpg
+│   ├── sender_esp32.png
+│   ├── projekt_schaltung.png
+│   └── website.png
+└── README.md
 ```
 
 ## Inbetriebnahme
@@ -232,17 +219,11 @@ projekt-esp32-parksensor/
 - `code/receiver_esp32.ino`
 - `README.md`
 
-Optional:
-
-- `docs/`
-- `images/`
-
 ## Fotos und Schaltplan
 
 Siehe Ordner:
 
 - `docs/`
-- `images/`
 
 ## Herausforderungen und Lösungen
 
