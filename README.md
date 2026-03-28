@@ -3,8 +3,8 @@
 
 ## Gruppenmitglieder
 
-- Bojan
-- Erdi
+- Bojan Krstic
+- Erdi Hajredini
 
 ## Varianten
 - Variante 2: Status LED
