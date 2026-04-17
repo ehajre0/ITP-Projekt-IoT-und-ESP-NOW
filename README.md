@@ -37,6 +37,7 @@ Dadurch kann der aktuelle Abstand sowohl lokal am System als auch über den Brow
 - Webinterface zur Live-Anzeige
 - API für JSON-Daten
 - Speicherung der letzten Messungen im Arbeitsspeicher des Receivers
+- Energieeffizienter Betrieb des Senders durch Deep-Sleep-Modus
 
 ## Verwendete Komponenten
 
